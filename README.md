@@ -81,6 +81,14 @@ You can run this project directly in the cloud with Google Colab — no setup ne
    - Generate vector embeddings for comparison
 
 ---
+## ✅ Summary of Ways to Run
+| Method              | Tech Used        | Best For                     |
+| ------------------- | ---------------- | ---------------------------- |
+| **Google Colab**    | Notebook (Cloud) | Fast testing, no setup       |
+| **Jupyter Locally** | Notebook         | Local development            |
+| **Streamlit**       | Web UI           | User-friendly, shareable app |
+| **Python Script**   | Terminal CLI     | Fast prototyping, scripting  |
+
 ## 🌐 Future Plans
 
    - Add a web interface using Gradio or Streamlit

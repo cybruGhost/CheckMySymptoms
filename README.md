@@ -98,6 +98,13 @@ You can run this project directly in the cloud with Google Colab — no setup ne
 
 CheckMySymptoms is not a diagnostic tool. It’s a conversation starter — not a conclusion. Always consult a licensed medical professional when in doubt.
 
+![Screenshot 2025-07-10 at 00-49-11 transforming vectorgeneration ipynb - Colab](https://github.com/user-attachments/assets/6d7932d8-0819-4ec5-b542-6e3eb8d21a48)
+![Screenshot 2025-07-10 at 01-29-02 transforming vectorgeneration ipynb - Colab](https://github.com/user-attachments/assets/703c0fb7-0618-49a9-9b5b-890ec581d53e)
+![Screenshot 2025-07-10 at 01-38-24 transforming vectorgeneration ipynb - Colab](https://github.com/user-attachments/assets/4cda6d0a-1cf0-4b43-a3cc-b5b916dc3544)
+![Screenshot 2025-07-10 at 01-38-59 transforming vectorgeneration ipynb - Colab](https://github.com/user-attachments/assets/3c1341e3-9e90-4296-abb4-865178e592fe)
+
+
+
 
 
 

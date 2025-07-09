@@ -64,52 +64,23 @@ The approach integrates a structured knowledge base with modern NLP techniques t
 * **Enhancement:** Utilizes LLMs to generate descriptive text from binary symptom associations for improved embedding quality.
 
 ## How to Run This Project
- Make sure you have Python 3.8+ installed. You’ll also need Jupyter and some NLP libraries.
+## ▶️ Run in Google Colab
 
-**✅ 1. Install Requirements**
+You can run this project directly in the cloud with Google Colab — no setup needed!
 
-Run this in your terminal to install dependencies:
---bash
-pip install jupyter pandas scikit-learn sentence-transformers
---
-**✅ 2. Open the Notebook**
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cybruGhost/CheckMySymptoms/blob/main/transforming%26vectorgeneration.ipynb)
 
-Start Jupyter Notebook in your project directory:
+### 🔧 How to Use It
 
-jupyter notebook
+1. Click the **"Open in Colab"** badge above  
+2. Wait for the notebook to load (you don’t need to install anything)
+3. Run each cell or click `Runtime > Run all` in the top menu
+4. The notebook will:
+   - Load `disease_sympto_list.csv` from the repository
+   - Enhance disease descriptions using NLP
+   - Generate vector embeddings for comparison
 
-**Then open the file:**
-
-transforming^vectorgeneration.ipynb
-
-**✅ 3. Prepare the Vectors**
-
-Inside the notebook:
-
-    Load disease_sympto_list.csv
-
-    Use the LLM-enhanced descriptions (you can mock this if no API is set)
-
-    Generate and store vector embeddings
-
-You can export these vectors to a .pkl file for use later.
-
-##✅ 4. Run the Inference Logic**
-
-Build a simple script or notebook to:
-
-  - Take user symptom input
-
-   - Convert it to an embedding
-
-   - Compare it (using cosine similarity) to all disease embeddings
-
-   - Pick top 3–5 results
-
-   - Identify and ask 1 key question
-
-   - Refine based on the user’s response
-
+---
 ## 🌐 Future Plans
 
    - Add a web interface using Gradio or Streamlit
